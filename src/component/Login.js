@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Input, Button, notification } from 'antd';
 import {Link} from 'react-router-dom';
-import {store,addUserDetail,userDetailReducer} from '../redux/userDetailReducer';
+import {store,addUserDetail,} from '../redux/userDetailReducer';
 import List from '../redux/onScreen';
 const FormItem = Form.Item;
 
