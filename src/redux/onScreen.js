@@ -2,8 +2,9 @@ import React from 'react';
 import {connect} from 'react-redux';
 const List=(props)=>(
     <div>
-        <p>grfedgd</p>
-        {props.userDetail[1]}
+        <p>g</p>
+        
+    {props.userDetail.length}
     </div>
 );
 const mapStateToProps=(state)=>{
