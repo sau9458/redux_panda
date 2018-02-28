@@ -1,0 +1,249 @@
+#container{
+ margin-left: 30%;
+ margin-right: 30%;
+ padding: 5px;
+ box-shadow: 0px 11px 40px -1px #dee0df;
+ margin-top: 5%;
+ color: white;
+}
+#login-form-button{
+  height: 50px;
+  width:100%;
+  background-color: #4ad3b3;
+  color: white;
+}
+#register-form-button{
+  height: 50px;
+  width: 100%;
+  background-color: #4ad3b3;
+  color: white;
+}
+#about-Container .ant-row{
+  width:100%;
+}
+#about-Container .ant-form-item-control-wrapper{
+width:100%;
+}
+#register-Container .ant-row{
+  width:100%;
+}
+#register-Container .ant-form-item-control-wrapper{
+  width:100%;
+}
+input[type="text"]{
+  height: 40px;
+}
+input[type="password"]{
+  height: 40px;
+}
+input[type="email"]{
+  height: 40px;
+}
+input[type="number"]{
+  height: 40px;
+}
+#links{
+  text-align: center;
+}
+#content{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color:black;
+}
+#errorMessage{
+  text-align: center;
+}
+.fix{
+  width: 48%;
+  display: inline-block;
+}
+.fixField{
+  display: inline-block;
+  width: 48%;
+}
+#professionalSince{
+width: 48%;
+display: inline-block;
+margin-right: 1.5%
+}
+#freelancerSince {
+  width: 48%;
+  display: inline-block;
+}
+#text-calendar{
+
+  background-color: #4ad3b3;
+  border-radius: 3px;
+  padding: 4%;
+}
+#feb{
+  margin-top:7%;
+}
+#col-calendar{
+  padding-bottom: 20px;;
+  box-shadow: 0px 11px 40px -1px #dee0df;
+  margin-bottom:20px;
+}
+#text-inquiries{
+  margin-top: 9%;
+  margin-left: 9%;
+  font-size: 40px;
+  color: black;
+  margin-right: 9%;
+}
+#profile-icon{
+  float:right;
+}
+#signalment-Input-Distance{
+  width: 45%;
+  margin-left: 10%;
+  display: inline-block;
+}
+#signalment-Input-Location{
+  width: 45%;
+  display: inline-block;
+}
+
+#signalment-h4{
+    display:inline-block;
+}
+
+#signalment-Switch{
+  float:right;
+
+}
+#mycv-Container .ant-row{
+  width:100%;
+}
+
+#mycv-Container .ant-form-item-control-wrapper{
+width:100%;
+}
+
+#profile-content{
+border-bottom: 1px solid rgba(128,128,128,.3);
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#link{
+  color:black;
+}
+#text-profile{
+  margin-top: 7%;
+  margin-left: 9%;
+  font-size: 30px;
+  color: black;
+  margin-right: 9%;
+}
+#content-profile{
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color:black;
+}
+#addEmployer{
+  background-color: rgba(80,80,80,.1);
+  padding:12px;
+  margin-top: 8px
+}
+#addEmployerCityDetails{
+  display:inline-block;
+  width:48%;
+  margin-right:4px
+}
+#addEmployerStartdate{
+  display:inline-block;
+  width:23%;
+  margin-right:4px
+}
+#addEmployerEnddate{
+  display:inline-block;
+  width:23%
+}
+#close{
+  float:right
+}
+#fix-item{
+ margin-left: 2%;
+ display: inline-block;
+ width: 48%;
+}
+#addEmployertext{
+  text-align: center;
+  width:70%;
+
+}
+.RegisterFormMargin{
+  margin-right: 10px
+}
+.leftArrow{
+  font-size:199%;
+  color:grey;
+  font-weight: bolder;
+  margin:2% 0 0 2%;
+}
+@media only screen and (max-device-width:600px)  {
+
+  #professionalSince{
+  width: 100%;
+  display: inline-block;
+
+  }
+  #container{
+   margin-left: 8%;
+   margin-right: 8%;
+   padding: 2px;
+   box-shadow: 0px 11px 40px -1px #dee0df;
+   margin-top: 5%;
+   color: white;
+
+  }
+  #freelancerSince {
+    width: 100%;
+    display: inline-block;
+  }
+  #addEmployerCityDetails{
+    display:inline-block;
+    width:95%;
+  }
+  #addEmployerStartdate{
+    display:inline-block;
+    width:95%;
+  }
+  #addEmployerEnddate{
+    display:inline-block;
+    width:95%
+  }
+  #addEmployertext{
+    font: 10px;
+    line-height: normal;
+    text-align: center;
+    width:100%;
+
+  }
+   .fix {
+    width: 100%;
+  }
+  .fixField {
+    width: 100%;
+  }
+  .RegisterFormMargin{
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-device-width:601px) and (max-device-width:800px)  {
+  .fix {
+   width: 100%;
+ }
+ .fixField {
+   width: 100%;
+ }
+ .RegisterFormMargin{
+   margin-right: 0px;
+ }
+}
