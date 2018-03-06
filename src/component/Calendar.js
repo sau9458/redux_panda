@@ -1,6 +1,7 @@
 import React from 'react';
 import {Collapse} from 'antd';
 import _ from'lodash';
+import List from '../redux/onScreen';
 
 const Panel = Collapse.Panel;
 let datepanel=[];
@@ -30,6 +31,7 @@ class Calendar extends React.Component {
       return(
 <div id="containerHome">
   <div id="content">
+  <List/>
       <div id="text-calendar">
       On 8 November 2016, the Government of India announced the demonetisation
        of all ₹500 (US$7.80) and ₹1,000 (US$16) banknotes of the Mahatma Gandhi

@@ -2,9 +2,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 const List=(props)=>(
     <div>
-        <p>g</p>
         
-    {props.userDetail.length}
+        {props.userDetail[props.userDetail.length-1] && props.userDetail[props.userDetail.length-1].email}
     </div>
 );
 const mapStateToProps=(state)=>{

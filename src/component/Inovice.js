@@ -1,5 +1,5 @@
 import React from 'react';
-
+import List from '../redux/onScreen';
 class Inovice extends React.Component {
 render(){
 
@@ -7,6 +7,7 @@ render(){
 
         <div id="containerHome">
           <div id="content">
+          <List/>
         <h1> Soon</h1>
 
             Viele von uns suchen Ruhe und Entspannung in der doch sehr hektischen und schnelllebigen
