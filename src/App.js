@@ -10,8 +10,7 @@ import HomePage from './component/HomePage';
 import Calendar from './component/Calendar';
 import WrappedMyCVForm from './component/Mycv';
 
-
-const RoutesApp=()=>(
+const routes=(
     <HashRouter>
       <Switch>
         <Route path="/" component={WrappedNormalLoginForm} exact/>
@@ -27,4 +26,4 @@ const RoutesApp=()=>(
       </Switch>
     </HashRouter>
 );
-export default RoutesApp;
+export default routes;

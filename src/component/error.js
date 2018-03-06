@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon} from 'antd';
+import {Col, Icon} from 'antd';
 
 const error =()=> (
   <div id="container">

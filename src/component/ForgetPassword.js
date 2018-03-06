@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form,Icon, Input, Button, notification} from 'antd';
+import { Col,Form,Icon, Input, Button, notification} from 'antd';
 import {Link} from 'react-router-dom';
 const FormItem = Form.Item;
 class ForgetPassword extends React.Component {
