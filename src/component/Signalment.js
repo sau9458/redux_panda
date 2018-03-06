@@ -1,6 +1,7 @@
 import React from 'react';
-import {Form,Select, notification, Input, Switch, Button,Icon } from 'antd';
-import {Link} from 'react-router-dom';
+import style from 'antd/dist/antd.css';
+import {Form, Col,Select, notification, Input, Switch, Button,Icon } from 'antd';
+import {BrowserRouter,Route,Link} from 'react-router-dom';
 
 
 class SingnalmentForm extends React.Component {

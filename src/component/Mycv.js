@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Button,Select,notification,Icon} from 'antd';
+import { Form,Col, Button,Select,notification,Icon} from 'antd';
 import {Link} from 'react-router-dom';
 import _ from 'lodash';
 import WrappedAddemp from './Addemp'
