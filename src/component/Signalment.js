@@ -1,21 +1,26 @@
 import React from 'react';
-import style from 'antd/dist/antd.css';
-import {Form, Col,Select, notification, Input, Switch, Button,Icon } from 'antd';
-import {BrowserRouter,Route,Link} from 'react-router-dom';
+import {Form, Select, notification, Input, Switch, Button,Icon } from 'antd';
+import {Link} from 'react-router-dom';
+import {store} from '../store/store';
+import {addSignalmentDetail} from '../action/action'
 
-
+let Car=false,Driver=false;
 class SingnalmentForm extends React.Component {
 
-  onChange = (checked)=> {
-    console.log(`switch to ${checked}`);
+  onCarChange = (checked)=> {
+  Car =checked;
+  }
+  onDriverChange=(check)=>{
+ Driver=check;
   }
 
   handleSubmit = (e) => {
     e.preventDefault();
     this.props.form.validateFields((err, values) => {
+      store.dispatch(addSignalmentDetail(values,Car,Driver));
 
+console.log(store.getState());
       if (!err) {
-        console.log('Received values of form: ', values);
         notification.open({
           message: 'Successfully Updated',
           description: 'Your information has been successfully updated.',
@@ -112,11 +117,11 @@ class SingnalmentForm extends React.Component {
 
         <FormItem>
         <h4 id="signalment-h4">Driver License</h4>
-          <Switch  id="signalment-Switch" defaultUnChecked onChange={this.onChange} />
+          <Switch  id="signalment-Switch"  onChange={this.onDriverChange} />
         </FormItem>
         <FormItem>
         <h4 id="signalment-h4">Own Car</h4>
-          <Switch id="signalment-Switch" defaultUnChecked onChange={this.onChange} />
+          <Switch id="signalment-Switch"  onChange={this.onCarChange} />
         </FormItem>
         <FormItem>
           <Button htmlType="submit" id="register-form-button" className="login-form-button">

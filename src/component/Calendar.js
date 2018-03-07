@@ -1,6 +1,6 @@
 import React from 'react';
-import { Col,Form, Icon, Input, Button,Collapse} from 'antd';
-import style from '../index.css'
+import { Collapse} from 'antd';
+
 import _ from'lodash';
 import List from '../container/container';
 const Panel = Collapse.Panel;

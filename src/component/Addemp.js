@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Icon, Select,Button } from 'antd';
+import { Form, Input, Icon, Select, } from 'antd';
 import _ from 'lodash';
 const FormItem = Form.Item;
 const { Option } = Select;
@@ -40,16 +40,7 @@ class Addemp extends React.Component {
     <Option key={data} value={data}>{data}</Option>
     );
     const { getFieldDecorator, getFieldValue } = this.props.form;
-    const formItemLayout = {
-      labelCol: {
-        xs: { span: 24 },
-        sm: { span: 4 },
-      },
-      wrapperCol: {
-        xs: { span: 24 },
-        sm: { span: 20 },
-      },
-    };
+    
     const formItemLayoutWithOutLabel = {
       wrapperCol: {
         xs: { span: 24, offset: 0 },

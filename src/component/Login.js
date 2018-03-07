@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form,Col, Input, Button, notification } from 'antd';
+import { Form, Input, Button, notification } from 'antd';
 import {Link} from 'react-router-dom';
 import {store} from '../store/store';
 import {addUserDetail} from '../action/action'

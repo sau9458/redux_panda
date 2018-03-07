@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form,Col, Input, Button, notification,Icon } from 'antd';
+import { Form, Input, Button, notification,Icon } from 'antd';
 import {Link} from 'react-router-dom';
 
 const FormItem = Form.Item;

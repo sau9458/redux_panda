@@ -1,6 +1,4 @@
 import React from 'react';
-import { Col,Form, Icon, Input, Button,Collapse} from 'antd';
-import style from '../index.css'
 import List from '../container/container';
 class Inquiries extends React.Component {
 render(){
