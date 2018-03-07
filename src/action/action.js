@@ -6,15 +6,16 @@ userdetail:{
 }
 });
 
-export const addSignalmentDetail=({facilities, Qualification, Location, Distance, Working_Shift}={},Car,Driver)=>({
+export const addSignalmentDetail=({facilities, Qualification, Location,Pension, Distance, Working_Shift}={},driving_license,own_car)=>({
     type:'SIGNALMENT-DETAIL',
     signalmentDetail:{
         facilities,
          Qualification, 
          Location,
+         Pension,
           Distance, 
           Working_Shift,
-          Car,
-          Driver
+          own_car,
+          driving_license
         }
 });

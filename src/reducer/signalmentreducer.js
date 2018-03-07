@@ -8,4 +8,4 @@ const signalmentDetailReducer=(state={},action)=>{
         return state;
     }
 };
-export default signalmentDetailReducer;
+export default signalmentDetailReducer; 

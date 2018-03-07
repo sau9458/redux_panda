@@ -16,6 +16,7 @@ class NormalLoginForm extends React.Component {
        notification.open({
          message: 'Successfully Logged In',
          description: 'You are successfully Logged in.',
+         duration:1
        });
      }
    });

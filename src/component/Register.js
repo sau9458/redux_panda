@@ -12,6 +12,7 @@ class RegisterForm extends React.Component {
         notification.open({
           message: 'Successfully Registered',
           description: 'You are successfully registered on our website.',
+          duration:1
         });
       }
     });

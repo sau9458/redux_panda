@@ -11,6 +11,7 @@ class ForgetPassword extends React.Component {
        notification.open({
          message: 'Password Successfully reset',
          description: 'Your password has been successfully reset.',
+         duration:1
        });
      }
    });
