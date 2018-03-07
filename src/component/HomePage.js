@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col,Form, Icon, Input, Button,Tabs} from 'antd';
+import { Icon,Tabs} from 'antd';
 import Calandar from './Calendar';
 import Inquiries from './Inquiries' ;
 import Inovice from './Inovice';

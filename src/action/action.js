@@ -5,3 +5,16 @@ userdetail:{
     password
 }
 });
+
+export const addSignalmentDetail=({facilities, Qualification, Location, Distance, Working_Shift}={},Car,Driver)=>({
+    type:'SIGNALMENT-DETAIL',
+    signalmentDetail:{
+        facilities,
+         Qualification, 
+         Location,
+          Distance, 
+          Working_Shift,
+          Car,
+          Driver
+        }
+});
