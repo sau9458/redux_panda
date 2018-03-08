@@ -5,6 +5,7 @@ import _ from 'lodash';
 import WrappedAddemp from './Addemp'
 
 
+
 const FormItem = Form.Item;
 const { Option } = Select;
 const startYear= new Date().getFullYear();
@@ -30,6 +31,7 @@ class MyCVForm extends React.Component {
         notification.open({
           message: 'Successfully Updated',
           description: 'Your information has been successfully updated.',
+          duration:1
         });
       }
     });
@@ -50,6 +52,7 @@ class MyCVForm extends React.Component {
       <div id="container">
         <div id="content">
           <h1>My CV</h1>
+         
           <Form onSubmit={this.handleSubmit} layout="inline" className="login-form">
             <p>When did you finish your professional education and when did you start to work as a freelancer?</p>
             <div id="mycv-Container" style={{width:'100%'}}>

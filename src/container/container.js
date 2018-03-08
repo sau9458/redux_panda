@@ -3,19 +3,17 @@ import {connect} from 'react-redux';
 
 const List=(props)=>(
     <div>
-        {props.userDetail[props.userDetail.length-1] && props.userDetail[props.userDetail.length-1].email}
-        {/* {props.singlamentDetail[props.singlamentDetail.length] && 
-        props.singlamentDetail[props.singlamentDetail.length].Distance} */}
-
+        {props.userDetail.email}
+        
     </div>
 );
-const mapStateToProps=(state)=>{
+const mapStateToPropss=(state)=>{
     return {
         userDetail:state.userDetail,
-        singlamentDetail:state.singlamentDetail
+        
     };
 };
 
-const connectList=connect(mapStateToProps)(List);
+const connectList=connect(mapStateToPropss)(List);
 
 export default connectList;

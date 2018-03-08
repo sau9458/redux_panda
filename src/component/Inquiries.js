@@ -1,5 +1,6 @@
 import React from 'react';
 import List from '../container/container';
+
 class Inquiries extends React.Component {
 render(){
 
